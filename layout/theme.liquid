@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page_title }}{% unless page_title contains shop.name %} — {{ shop.name }}{% endunless %}</title>
+  {{ content_for_header }}
+  {{ 'd99.css' | asset_url | stylesheet_tag }}
+</head>
+<body class="d99-body">
+  <div class="d99-frame">
+    {% section 'd99-header' %}
+    <main id="MainContent">{{ content_for_layout }}</main>
+    {% section 'd99-footer' %}
+  </div>
+  {{ 'd99.js' | asset_url | script_tag }}
+</body>
+</html>
