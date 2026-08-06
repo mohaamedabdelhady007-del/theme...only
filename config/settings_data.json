@@ -19,7 +19,7 @@
       "d99-hero": {
         "type": "d99-hero",
         "settings": {
-          "image": "shopify://shop_images/d99-hero-panel.png",
+          "image": "shopify://shop_images/d99-shirt-alt-03.jpg",
           "eyebrow": "BUILT DIFFERENT. MOVING LOUD.",
           "heading": "BUILT\nFOR MORE",
           "subheading": "[ FW24 COLLECTION ]\nAVAILABLE NOW",
@@ -37,6 +37,13 @@
           "heading": "NEW ARRIVALS",
           "collection": "",
           "style": "02"
+        }
+      },
+      "d99-lookbook": {
+        "type": "d99-lookbook",
+        "settings": {
+          "heading": "THE DISTRICT\nIN MOTION",
+          "intro": "LIVE WITH INTENT. ACT WITHOUT FEAR."
         }
       }
     },
