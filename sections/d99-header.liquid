@@ -1,6 +1,6 @@
 <header class="d99-header">
   <button class="d99-menu" aria-label="Menu"><i></i><i></i><i></i></button>
-  <a class="d99-logo" href="{{ routes.root_url }}">{% if section.settings.logo %}{{ section.settings.logo | image_url: width: 360 | image_tag: alt: shop.name }}{% else %}{{ shop.name | default: 'D99' }}{% endif %}</a>
+  <a class="d99-logo" href="{{ routes.root_url }}">{% if section.settings.logo %}{{ section.settings.logo | image_url: width: 360 | image_tag: alt: shop.name }}{% else %}D99{% endif %}</a>
   <nav><a href="{{ routes.all_products_collection_url }}">SHOP</a><a href="/collections/all">COLLECTIONS</a><a href="/pages/about">ABOUT</a><a href="/pages/contact">CONTACT</a></nav>
   <div class="d99-actions"><a href="{{ routes.search_url }}">SEARCH (⌕)</a><a href="{{ routes.cart_url }}">CART [{{ cart.item_count }}]</a></div>
 </header>
